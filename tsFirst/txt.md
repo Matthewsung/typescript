@@ -285,4 +285,8 @@ employee1.fullName='민수'
 console.log(employee1.fullName)
 ```
 
+<<<<<<< HEAD
 - constructor를 이용하여 변수의 선언을 줄일 수 있다
+=======
+- constructor를 이용하여 변수의 선언을 줄일 수 있다
+>>>>>>> 097c819c77123f686c37c60861bedfaef1c3a736
