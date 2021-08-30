@@ -1,3 +1,3 @@
-import {  } from 'react-redux'
-
-const store  
+import { createStore } from 'redux'
+import  rootreducer from './reducer/index'
+const store  = createStore(rootreducer)
