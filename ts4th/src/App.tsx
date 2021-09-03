@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
-
-
+import { useDispatch } from 'react-redux'
+import { bindActionCreators } from 'redux'
 function App() {
+  const dispatch = useDispatch();
+  const {} = bindActionCreators(action)
+
+  
   return (
     <div className="App">
       <div className="outer">

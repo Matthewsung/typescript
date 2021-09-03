@@ -2,6 +2,7 @@ import {ActionType} from '../actionType'
 import {Actions} from '../actions'
 
 const initialState = 0;
+
 const reducer = (state:number = initialState, action:Actions)=>{
   switch(action.type){
     case ActionType.ADD:
