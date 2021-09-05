@@ -15,13 +15,14 @@ function App() {
     <div className="App">
       <input type="text" value={pokemonName} onChange={handlePokemonName} />
       <button onClick={searchBtn}>포켓몬 찾기</button>
-        {pokemonReducer.success && <div>
+        { pokemonReducer.success && 
+        <div>
           <p>{pokemonName}</p>
-          {pokemonReducer.pokemon?.abilities.map((value) => {
+            { pokemonReducer.pokemon?.abilities.map((value) => {
             return <div><p>{value.ability.name}</p><p>{value.slot}</p></div>
-          })}
+            })}
           <img src={pokemonReducer.pokemon?.sprites.front_default}  alt="포켓몬 사진"/>
-        </div>}
+        </div> }
     </div>
   );
 }
